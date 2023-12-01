@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.statistics{
+  display: flex;
+  box-shadow: 16px 19px 60px -10px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  justify-content: flex-start;
+  max-width: 700px;
+}
+.statistics__info{
+  background-color:#5f3ffc;
+  color:white;
+  padding: 40px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.statistics__tile{
+  font-size: 2rem;
+  color: #ccc2ff;
+}
+.statistics__count{
+  background-color: #4b25ca;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 50%;
+  padding: 30px 40px;
+  
+}
+.statistics__count--result{
+  font-size: 6rem;
+}
+.statistics__count--cuantity{
+  font-size: 2rem;
+}
+.statistics__state{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.statistics__punctuation{
+  padding: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ccc2ff;
+}
+.statistics__data{
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 2rem;
+}
+.statistics__data--title{
+  color: #333951;
+  font-size: 2rem;
+  margin: 40px 20px 10px 20px;
+  font-weight: bold;
+}
+.statistics__list{
+  margin: 10px 30px;
+}
+.statistics__data--father{
+  display: flex;
+  min-width: 150px;?
+}
+.statistics__data--reaction{
+  background-color: #fff6f5;
+  color: #ff888a;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.statistics__data--memory{
+  color: #ecb443;
+  background-color: #fffbf2;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.statistics__data--verbal{
+  background-color: #f2fbfa;
+  color: #2c9f82;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.statistics__data--visual{
+  color: #313596;
+  background-color: #f3f3fd;
+  display: flex;
+  justify-content:space-between;
+  padding: 10px;
+}
+.statistics__button{
+  color:#fff;
+  background-color: #303b59;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 40px;
+  padding:20px;
+  border: none;
+}
+.first__data{
+color: #333951;
+}
+.second__data{
+color:#9895a0;
+}
+img{
+  margin-right: 10px;
+}
